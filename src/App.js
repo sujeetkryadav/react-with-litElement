@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Home from './home-component/HomeComponent';
 import './script/autocomplete';
 import './script/dropdown-search-component';
+import './script/input-tags-component'
 
 function App() {
   return (
