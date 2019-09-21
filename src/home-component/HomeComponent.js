@@ -18,10 +18,10 @@ export default class Home extends React.Component {
       _self.setState({recipientUrl: 'https://jsonplaceholder.typicode.com/users'});
     });
     this.myRefForRecipient.current.addEventListener('on-change', function($event) {
-      console.log('Recipient')
+      console.log('Recipient', $event)
     });
     this.myRefForService.current.addEventListener('on-change', function($event) { 
-      console.log('Service')
+      console.log('Service',$event)
     });
   }
 
